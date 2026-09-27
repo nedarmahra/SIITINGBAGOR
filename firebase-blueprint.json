@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "users": {
+      "path": "users/{userId}",
+      "description": "User profile with role and department information",
+      "fields": {
+        "uid": { "type": "string", "description": "Auth UID" },
+        "displayName": { "type": "string", "description": "User full name" },
+        "email": { "type": "string", "description": "Official email address" },
+        "role": { "type": "string", "description": "admin_organisasi | pengelola_opd | pimpinan" },
+        "unitKerja": { "type": "string", "description": "Department / OPD name" },
+        "createdAt": { "type": "timestamp", "description": "Creation timestamp" }
+      }
+    }
+  }
+}

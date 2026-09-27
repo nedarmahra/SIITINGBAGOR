@@ -1,0 +1,8 @@
+{
+  "name": "SIMPEG Analitika ASN",
+  "description": "Sistem informasi analisis data pegawai ASN, rekapitulasi otomatis formasi dan bezetting, serta dashboard visual interaktif tren distribusi dan mutasi personel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
